@@ -34,19 +34,3 @@ const user = {
 for (let propriety in user) {
   console.log(propriety, user[propriety]);
 }
-
-console.log(
-  `Name: ${user.firstName} ${user.lastName}`,
-  '\n',
-  `Career: ${user.field}`,
-  '\n',
-  `Description: ${user.description}`,
-  '\n',
-  '\n',
-  `My intrests:
-  * ${user.instrests[0]}
-  * ${user.instrests[1]}
-  * ${user.instrests[2]}
-  * ${user.instrests[3]}
-  `
-);
